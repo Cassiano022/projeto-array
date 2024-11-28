@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cardápio de Lanches</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-buttons">
+            <button class="show-all" aria-label="Mostrar todos os produtos">Mostrar tudo<br>ForEach</button>
+            <button class="map-all" aria-label="Produtos com desconto">Mapear<br>Map</button>
+            <button class="sum-all" aria-label="Somar valor total">Somar tudo<br>Reduce</button>
+            <button class="filter-all" aria-label="Filtrar produtos veganos">Filtrar<br>Veganos</button>
+            <button class="reset-all" aria-label="Resetar lista">Resetar<br>Produtos</button>
+        </div>
+        <ul class="product-list">
+            <!-- Produtos serão adicionados dinamicamente via JavaScript -->
+        </ul>
+    </div>
+
+    <script type="module" src="products.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
